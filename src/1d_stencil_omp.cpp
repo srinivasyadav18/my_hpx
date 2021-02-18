@@ -1,12 +1,12 @@
+#include <hpx/hpx_init.hpp>
+#include <hpx/iostream.hpp>
+#include <hpx/hpx.hpp>
+
 #include <chrono>
 #include <vector>
 #include <cstddef>
 #include <cstdint>
 #include <cstdlib>
-
-#include <hpx/hpx_init.hpp>
-#include <hpx/iostream.hpp>
-#include <hpx/hpx.hpp>
 
 inline std::uint64_t now()
 {

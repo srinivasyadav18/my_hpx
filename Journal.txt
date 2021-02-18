@@ -7,5 +7,4 @@ Feb 18, 2021
         hpx main
         hpx iostream
 
-        are the new headers that 
 1d stencil openmp 
