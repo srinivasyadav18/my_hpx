@@ -1,0 +1,11 @@
+Feb 18, 2021
+------------
+
+1d stencil serial code
+    Learned:
+        hpx init
+        hpx main
+        hpx iostream
+
+        are the new headers that 
+1d stencil openmp 
