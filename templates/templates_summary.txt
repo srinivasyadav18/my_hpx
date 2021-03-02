@@ -48,4 +48,7 @@ Here we use typename --> which introduces type parameter.
 or class can also be used, but prefer typename only.
 
 
+The process of replacing templates parameters by concrete types is called
+instantiation.
+
 
