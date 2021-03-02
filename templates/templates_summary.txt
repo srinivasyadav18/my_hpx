@@ -1,0 +1,51 @@
+C++ Templates: The Complete Guide summary
+=========================================
+
+About This Book
+---------------------------
+
+David (c++ expert) and Nico (c++ beginner) are the two main persons.
+David transfer his knowledge of templates to Nico.
+
+This Book aims at displaying
+    1. language elements with c++11, c++14, c++17
+    2. C++ template basic to advance
+    3. idioms and techniques of language
+
+How to Read the Book:
+    Part 1 --> basics of templates
+    Part 2 --> template-related language details
+    Part 3 --> fundamental design and techniques of templates
+
+
+PART 1
+======
+
+To provide generic type feature for some particular algorithm, where
+algorithm remains the same but the type changes.
+So for providing this feature, the most common methods are:
+    :-> implement again & again for different types
+    :-> General code for void* or Object
+    :-> preprocessors
+
+Each have its own problem, so templates are the solution.
+
+
+Chapter 1 : Function Templates
+------------------------------
+Function templates are functions that are parameterized so they represent
+family of functions.
+
+template<typename T>
+T max(T a, T b)
+{
+    return b < a ? a : b;
+}
+
+templete< comma-seperated-list-of-parameters >
+
+Here we use typename --> which introduces type parameter.
+or class can also be used, but prefer typename only.
+
+
+
