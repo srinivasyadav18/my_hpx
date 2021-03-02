@@ -1,0 +1,24 @@
+Changes:
+========
+1. Created new branch segmented_copy
+2. Replaced tag with tag_fallback
+3. Replaced tag_invoke with tag_fallback_invoke
+4. Applied clang_format
+
+Understanding :
+==============
+
+1. new branch --> need to create PR agains HPX:master to kick in circle.ci
+
+2. Replaced tag with tag_fallback
+    
+    But what is tag??
+    
+
+    ADL --> Argument Dependent Lookup
+        https://www.youtube.com/watch?v=agS-h_eaLj8
+
+        Compiler basically looksup in the nearest namespace of the arguments which are
+        passed to the function.
+
+        
