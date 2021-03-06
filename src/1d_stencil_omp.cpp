@@ -2,6 +2,7 @@
 #include <hpx/iostream.hpp>
 #include <hpx/hpx.hpp>
 
+#include <omp.h>
 #include <chrono>
 #include <vector>
 #include <cstddef>
@@ -71,7 +72,7 @@ int hpx_main(int, char**)
     
     std::uint64_t elapsed = now() - t;
 
-    hpx::cout << "Elapsed : " << elapsed << "\n" << hpx::flush;
+    hpx::cout << "Elapsed : " << elapsed / 1e9 << "\n" << hpx::flush;
     return hpx::finalize();
 }
 

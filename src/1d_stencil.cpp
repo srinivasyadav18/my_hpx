@@ -56,7 +56,7 @@ int hpx_main(int, char**)
     
     std::uint64_t elapsed = hpx::chrono::high_resolution_clock::now() - t;
 
-    hpx::cout << "Elapsed : " << elapsed << "\n" << hpx::flush;
+    hpx::cout << "Elapsed : " << elapsed / 1e9 << "\n" << hpx::flush;
     return hpx::finalize();
 }
 
