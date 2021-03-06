@@ -15,3 +15,9 @@ Feb 27, 2021
 Branch to seperate copy.hpp using tag_fallback_invoke
 
 Merged Succefully 100%
+
+
+March 6, 2021
+-------------
+Add examples folder containing Pascal Triangle.
+Add references.txt containing all the references.
