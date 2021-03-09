@@ -21,3 +21,10 @@ March 6, 2021
 -------------
 Add examples folder containing Pascal Triangle.
 Add references.txt containing all the references.
+
+
+March 9, 2021
+-------------
+
+HPX Got Accepted for GSoC 2021.
+End Semester exams 9th March - 17 March.
