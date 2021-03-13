@@ -28,3 +28,9 @@ March 9, 2021
 
 HPX Got Accepted for GSoC 2021.
 End Semester exams 9th March - 17 March.
+Install Vc library
+
+March 12, 2021
+--------------
+
+Solved build errors and installed hpx_vc
