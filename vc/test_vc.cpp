@@ -115,3 +115,20 @@ int main(int argc, char* argv[])
 {
     return hpx::init(argc, argv);
 }
+
+/* OUTPUT 2 Iterations on vector length 2^^30
+Time Elapsed [normal for loop          ]	:	7.3894s
+Time Elapsed [vc vectorised for loop   ]	:	6.99995s
+Time Elapsed [std::for_each            ]	:	12.8529s
+Time Elapsed [std::for_each unseq      ]	:	6.37424s
+Time Elapsed [hpx::for_each            ]	:	16.6947s
+Time Elapsed [hpx::for_each dataseq    ]	:	12.562s
+Time Elapsed [omp simd for loop        ]	:	4.3925s
+Time Elapsed [normal for loop          ]	:	7.39619s
+Time Elapsed [vc vectorised for loop   ]	:	7.01039s
+Time Elapsed [std::for_each            ]	:	12.8742s
+Time Elapsed [std::for_each unseq      ]	:	6.35804s
+Time Elapsed [hpx::for_each            ]	:	16.7034s
+Time Elapsed [hpx::for_each dataseq    ]	:	12.5873s
+Time Elapsed [omp simd for loop        ]	:	4.39325s
+*/
