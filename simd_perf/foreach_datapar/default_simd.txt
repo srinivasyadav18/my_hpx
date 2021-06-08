@@ -1,0 +1,19 @@
+Test Name                     Elements            Iterations          Simd Len            Avg speed up
+hpx for_each datapar<int>     32                  100                 4                   1.027661            
+hpx for_each datapar<int>     1024                100                 4                   1.193853            
+hpx for_each datapar<int>     32768               100                 4                   1.227802            
+hpx for_each datapar<int>     1048576             100                 4                   1.302154            
+hpx for_each datapar<int>     33554432            100                 4                   1.148892            
+
+hpx for_each datapar<float>   32                  100                 4                   1.309995            
+hpx for_each datapar<float>   1024                100                 4                   2.878665            
+hpx for_each datapar<float>   32768               100                 4                   2.982638            
+hpx for_each datapar<float>   1048576             100                 4                   2.726982            
+hpx for_each datapar<float>   33554432            100                 4                   1.726208            
+
+hpx for_each datapar<double>  32                  100                 2                   1.176153            
+hpx for_each datapar<double>  1024                100                 2                   1.679541            
+hpx for_each datapar<double>  32768               100                 2                   1.425595            
+hpx for_each datapar<double>  1048576             100                 2                   1.378943            
+hpx for_each datapar<double>  33554432            100                 2                   1.115821            
+

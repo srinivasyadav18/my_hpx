@@ -1,0 +1,19 @@
+Test Name                     Elements            Iterations          Simd Len            Avg speed up
+hpx fill datapar<int>         32                  100                 4                   1.204637            
+hpx fill datapar<int>         1024                100                 4                   3.147061            
+hpx fill datapar<int>         32768               100                 4                   2.604862            
+hpx fill datapar<int>         1048576             100                 4                   2.144165            
+hpx fill datapar<int>         33554432            100                 4                   1.081308            
+
+hpx fill datapar<float>       32                  100                 4                   1.233713            
+hpx fill datapar<float>       1024                100                 4                   3.039107            
+hpx fill datapar<float>       32768               100                 4                   2.570177            
+hpx fill datapar<float>       1048576             100                 4                   2.036698            
+hpx fill datapar<float>       33554432            100                 4                   1.098273            
+
+hpx fill datapar<double>      32                  100                 2                   1.028830            
+hpx fill datapar<double>      1024                100                 2                   1.592536            
+hpx fill datapar<double>      32768               100                 2                   1.270037            
+hpx fill datapar<double>      1048576             100                 2                   1.095159            
+hpx fill datapar<double>      33554432            100                 2                   1.003947            
+

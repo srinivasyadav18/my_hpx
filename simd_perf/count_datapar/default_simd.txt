@@ -1,0 +1,19 @@
+Test Name                     Elements            Iterations          Avg speed up
+hpx count datapar<int>        32                  100                 1.309040            
+hpx count datapar<int>        1024                100                 1.983338            
+hpx count datapar<int>        32768               100                 2.133762            
+hpx count datapar<int>        1048576             100                 1.880363            
+hpx count datapar<int>        33554432            100                 1.559075            
+
+hpx count datapar<float>      32                  100                 1.265199            
+hpx count datapar<float>      1024                100                 2.432666            
+hpx count datapar<float>      32768               100                 2.562968            
+hpx count datapar<float>      1048576             100                 2.552381            
+hpx count datapar<float>      33554432            100                 2.135236            
+
+hpx count datapar<double>     32                  100                 1.312197            
+hpx count datapar<double>     1024                100                 1.848726            
+hpx count datapar<double>     32768               100                 1.859510            
+hpx count datapar<double>     1048576             100                 1.911137            
+hpx count datapar<double>     33554432            100                 1.487159            
+
